@@ -8,7 +8,8 @@ const login = () => {
         let password = prompt("Enter your password:");
         if (password === correctPassword) {
             alert(`Welcome, ${username}!`);
-           
+            document.getElementById("fireworks-canvas").style.display="block";
+
             document.getElementById("title").innerHTML="Welcome " +username;
 
             return;
@@ -23,6 +24,8 @@ const login = () => {
     }
 
     alert("Obs' You have exceeded the maximum number of attempts.\n Please try again later.");
+    document.getElementById("fireworks-canvas").style.display="none";
+
 };
 
 login();
