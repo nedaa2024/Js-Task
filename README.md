@@ -21,7 +21,7 @@ This project involves creating a JavaScript program that prompts the user to ent
 6. If the user fails to enter the correct password after 5 attempts, an alert informs them to try again later.
 
 
-## Live Demo click [here](https://nedaa2024.github.io/Js-Task/) to show the live demo.
+## Live Demo:  click [here](https://nedaa2024.github.io/Js-Task/) to show the live demo.
 
 
 
